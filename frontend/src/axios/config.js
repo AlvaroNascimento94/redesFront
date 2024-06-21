@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const partyFetch = axios.create({
-  baseURL: "http://localhost:3000/api/",
+  baseURL: "http://18.117.148.17:3000/api/",
   headers: {
     "Content-Type": "application/json",
   },

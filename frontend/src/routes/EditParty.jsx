@@ -130,7 +130,6 @@ const EditParty = () => {
             placeholder="Insira a URL de uma imagem"
             onChange={(e) => setParty({ ...party, image: e.target.value })}
             value={party.image}
-            required
           />
         </label>
         <div>
